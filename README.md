@@ -82,7 +82,7 @@ Students aspiring to higher education scored **3+ grade points higher** on avera
 
 ## Limitations & Future Work
 
-- Dataset is from Portuguese secondary schools (2005–2006); transferability to other contexts is limited
+- Dataset is from Portuguese secondary schools (2005-2006); transferability to other contexts is limited
 - Silhouette score of 0.125 suggests overlapping clusters - Gaussian Mixture Models could offer more flexible, probabilistic segmentation
 - The "text mining" component operates on structured categorical fields; integrating genuine free-text data (e.g. student surveys) would enable LDA topic modelling and sentiment analysis
 
