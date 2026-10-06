@@ -69,6 +69,15 @@ Students aspiring to higher education scored **3+ grade points higher** on avera
 ### Learner Cluster Profiles
 ![Cluster Profiles](outputs/fig4_Student_Group_Profiles.png)
 
+## How to Run
+
+```bash
+git clone https://github.com/Supaisu/student-performance-analysis.git
+cd student-performance-analysis
+pip install -r requirements.txt
+jupyter notebook notebooks/analysis.ipynb
+```
+
 ## Tools
 
 - Python 3
@@ -88,4 +97,4 @@ Students aspiring to higher education scored **3+ grade points higher** on avera
 
 ## License
 
-This project is for portfolio and educational purposes. The dataset is publicly available from the UCI ML Repository.
+Code is released under the [MIT License](LICENSE). The dataset is publicly available from the UCI Machine Learning Repository under its own terms.
