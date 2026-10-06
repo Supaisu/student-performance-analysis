@@ -1,4 +1,12 @@
-# Student Performance Prediction & Segmentation
+<p align="center">
+  <img src="assets/banner.svg" alt="Student Performance Prediction & Segmentation" width="100%">
+</p>
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![R2](https://img.shields.io/badge/R²-0.82-A78BFA?style=flat-square&labelColor=0B1220) ![License](https://img.shields.io/badge/License-MIT-334155?style=flat-square)
+
+</p>
 
 Predicting secondary school student outcomes and segmenting learners into actionable intervention groups using supervised and unsupervised machine learning.
 
@@ -69,6 +77,15 @@ Students aspiring to higher education scored **3+ grade points higher** on avera
 ### Learner Cluster Profiles
 ![Cluster Profiles](outputs/fig4_Student_Group_Profiles.png)
 
+## How to Run
+
+```bash
+git clone https://github.com/Supaisu/student-performance-analysis.git
+cd student-performance-analysis
+pip install -r requirements.txt
+jupyter notebook notebooks/analysis.ipynb
+```
+
 ## Tools
 
 - Python 3
@@ -88,4 +105,4 @@ Students aspiring to higher education scored **3+ grade points higher** on avera
 
 ## License
 
-This project is for portfolio and educational purposes. The dataset is publicly available from the UCI ML Repository.
+Code is released under the [MIT License](LICENSE). The dataset is publicly available from the UCI Machine Learning Repository under its own terms.
